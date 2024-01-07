@@ -1,0 +1,42 @@
+footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 28, 28);
+  gap: 30px;
+  padding: 50px 20px;
+
+  font-family: "Poppins", sans-serif;
+}
+.footer_card h3 {
+  margin-bottom: 10px;
+}
+.footer_card li {
+  list-style: none;
+  margin-left: 15px;
+
+  margin-bottom: 5px;
+}
+
+.footer_card li i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.footer_card button {
+  border: none;
+  padding: 0 12px;
+  background-color: brown;
+  color: white;
+  height: 30px;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+.footer_card input {
+  height: 30px;
+}
